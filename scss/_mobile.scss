@@ -86,26 +86,42 @@
 
 // Smartphones
 @include mediaSm {
-  main#home h1 {
-    margin-top: 10vh;
-
-    &.lg-heading {
-      margin-left: -2rem;
-      margin-right: -2rem;
-      margin-bottom: 1rem;
-      font-size: 4rem;
-      text-align: center;
-    }
+  h1.lg-heading {
+    font-size: 4rem;
   }
 
-  main#home h2 {
-    &.sm-heading {
-      margin-left: -2rem;
-      margin-right: -2rem;
-    }
+  h2.sm-heading {
+    font-size: 2rem;
   }
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .boxes {
+    div {
+      font-size: 1rem;
+    }
+  }
+}
+
+// Small Smartphones
+@include mediaXs {
+  h1.lg-heading {
+    font-size: 3rem;
+  }
+
+  h2.sm-heading {
+    font-size: 1.5rem;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .boxes {
+    div {
+      font-size: 1rem;
+    }
   }
 }
