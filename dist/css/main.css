@@ -18,11 +18,14 @@
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
-      transform: rotate(45deg) translate(6px, 5px); }
+      transform: rotate(45deg) translate(6px, 5px);
+      animation-play-state: paused !important; }
     .menu-btn.close .btn-line:nth-child(2) {
-      opacity: 0; }
+      opacity: 0;
+      animation-play-state: paused !important; }
     .menu-btn.close .btn-line:nth-child(3) {
-      transform: rotate(-45deg) translate(6px, -5px); }
+      transform: rotate(-45deg) translate(6px, -5px);
+      animation-play-state: paused !important; }
 
 .menu {
   position: fixed;
@@ -298,14 +301,7 @@ main {
   .btn-line:nth-child(2) {
     animation: blinker 1s linear infinite; }
   .btn-line:nth-child(3) {
-    animation: blinker 1s linear infinite; }
-  .menuBtn.close .btn-line:nth-child(1) {
-    animation: initial; }
-  .menuBtn.close .btn-line:nth-child(2) {
-    animation: initial;
-    opacity: 0 !important; }
-  .menuBtn.close .btn-line:nth-child(3) {
-    animation: initial; } }
+    animation: blinker 1s linear infinite; } }
 
 @media screen and (max-width: 500px) {
   h1.lg-heading {

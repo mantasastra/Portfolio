@@ -95,24 +95,6 @@
       animation: blinker 1s linear infinite;
     }
   }
-
-  .menuBtn.close {
-    .btn-line {
-      // Line 1 - Rotate
-      &:nth-child(1) {
-        animation: initial;
-      }
-      // Line 2 - Hide
-      &:nth-child(2) {
-        animation: initial;
-        opacity: 0 !important;
-      }
-      // Line 3 - Rotate
-      &:nth-child(3) {
-        animation: initial;
-      }
-    }
-  }
 }
 
 // Smartphones
