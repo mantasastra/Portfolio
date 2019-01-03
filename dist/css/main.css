@@ -299,14 +299,12 @@ main {
     animation: blinker 1s linear infinite; }
   .btn-line:nth-child(3) {
     animation: blinker 1s linear infinite; }
-  .menuBtn.close {
-    transform: rotate(180deg); }
-    .menuBtn.close .btn-line:nth-child(1) {
-      transform: rotate(45deg) translate(6px, 5px); }
-    .menuBtn.close .btn-line:nth-child(2) {
-      opacity: 0; }
-    .menuBtn.close .btn-line:nth-child(3) {
-      transform: rotate(-45deg) translate(6px, -5px); } }
+  .menuBtn.close .btn-line:nth-child(1) {
+    animation: initial; }
+  .menuBtn.close .btn-line:nth-child(2) {
+    animation: initial; }
+  .menuBtn.close .btn-line:nth-child(3) {
+    animation: initial; } }
 
 @media screen and (max-width: 500px) {
   h1.lg-heading {
