@@ -122,11 +122,50 @@
 // Smartphones
 @include mediaSm {
   h1.lg-heading {
-    font-size: 4rem;
+    font-size: 2rem;
+  }
+
+  h2.sm-heading-about {
+    font-size: 1rem;
   }
 
   h2.sm-heading {
-    font-size: 2rem;
+    font-size: 1rem;
+  }
+
+  .menu {
+    .menu-nav .nav-item {
+      a {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .about-info {
+    .bio-image {
+      grid-area: bioimage;
+      height: 10rem;
+      width: 10rem;
+      margin: auto;
+      border-radius: 50%;
+      border: $secondary-color 3px solid;
+    }
+
+    .bio {
+      font-size: 1rem;
+      text-align: left;
+
+      .text-secondary {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+    }
+  }
+
+  .job {
+    p {
+      text-align: left;
+    }
   }
 
   .projects {
