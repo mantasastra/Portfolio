@@ -3,6 +3,14 @@
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .boxes {
+    div {
+      width: 70%;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
 }
 
 // Desktops & Laptops
@@ -20,6 +28,14 @@
 
   .projects {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .boxes {
+    div {
+      width: 70%;
+      font-size: 1.5rem;
+      text-align: center;
+    }
   }
 }
 
@@ -117,6 +133,14 @@
       }
     }
   }
+
+  .boxes {
+    div {
+      width: 70%;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
 }
 
 // Smartphones
@@ -173,7 +197,15 @@
   }
 
   .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    margin-top: 1rem;
+
     div {
+      width: 100%;
+      text-align: center;
       font-size: 1rem;
     }
   }
@@ -195,6 +227,8 @@
 
   .boxes {
     div {
+      width: 140%;
+      text-align: center;
       font-size: 1rem;
     }
   }

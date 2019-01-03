@@ -248,7 +248,11 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); }
+  .boxes div {
+    width: 70%;
+    font-size: 2rem;
+    text-align: center; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   main .lg-heading {
@@ -257,7 +261,11 @@ main {
   main .sm-heading {
     margin-top: 1rem; }
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  .boxes div {
+    width: 70%;
+    font-size: 1.5rem;
+    text-align: center; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -309,7 +317,11 @@ main {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       animation: none;
-      transform: rotate(-45deg) translate(6px, -5px); } }
+      transform: rotate(-45deg) translate(6px, -5px); }
+  .boxes div {
+    width: 70%;
+    font-size: 1rem;
+    text-align: center; } }
 
 @media screen and (max-width: 500px) {
   h1.lg-heading {
@@ -337,8 +349,16 @@ main {
     text-align: left; }
   .projects {
     grid-template-columns: 1fr; }
-  .boxes div {
-    font-size: 1rem; } }
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    margin-top: 1rem; }
+    .boxes div {
+      width: 100%;
+      text-align: center;
+      font-size: 1rem; } }
 
 @media screen and (max-width: 361px) {
   h1.lg-heading {
@@ -348,4 +368,6 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
+    width: 140%;
+    text-align: center;
     font-size: 1rem; } }
