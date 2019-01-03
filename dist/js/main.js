@@ -32,9 +32,16 @@ function toggleMenu() {
 
 menuBtn.addEventListener("click", toggleMenu);
 
-// Access Menu When Page Bottom Is Reached With Mouse Scroll Down
-window.onscroll = function(e) {
-  if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
-    toggleMenu();
-  }
-};
+// Menu Scroll On Desktops & Laptops
+if (document.documentElement.clientWidth > 1024) {
+  // Access Menu When Bottom Of Page Is Reached With Scroll Down
+  window.onscroll = function(e) {
+    if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
+      toggleMenu();
+    }
+  };
+
+  // Access Menu With Mouse Scroll Down
+  var body = document.querySelector(".showMenu");
+  body.addEventListener("wheel", toggleMenu);
+}

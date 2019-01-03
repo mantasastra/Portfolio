@@ -68,3 +68,10 @@ $background-opacity: 0.9;
     @content;
   }
 }
+
+// Blinking Menu Button
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
