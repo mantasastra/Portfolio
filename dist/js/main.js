@@ -31,3 +31,14 @@ function toggleMenu() {
 }
 
 menuBtn.addEventListener("click", toggleMenu);
+
+// Access Menu With Mouse Scroll Down
+var body = document.querySelector(".showMenu");
+
+window.onscroll = function(e) {
+  if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
+    toggleMenu();
+  }
+};
+
+body.addEventListener("wheel", toggleMenu);
