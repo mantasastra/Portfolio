@@ -23,17 +23,15 @@
       // Line 1 - Rotate
       &:nth-child(1) {
         transform: rotate(45deg) translate(6px, 5px);
-        animation-play-state: paused !important;
       }
       // Line 2 - Hide
       &:nth-child(2) {
-        opacity: 0;
+        opacity: 0 !important;
         animation-play-state: paused !important;
       }
       // Line 3 - Rotate
       &:nth-child(3) {
         transform: rotate(-45deg) translate(6px, -5px);
-        animation-play-state: paused !important;
       }
     }
   }
