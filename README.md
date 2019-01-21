@@ -1,5 +1,13 @@
-# Portfolio
+# Personal Portfolio
 
-My Personal website created using HTML, CSS, JavaScript and Sass.
+#### Developed using:
 
-https://www.mantas.club/
+| Front-End        |
+| ------------- |
+| HTML      |
+| CSS      |
+| SASS |
+| JavaScript |
+***
+#### Website:
+[Mantas Astrauskas](https://www.mantas.club/)
