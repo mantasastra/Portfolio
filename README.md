@@ -8,8 +8,8 @@ My first responsive portfolio.
 
 * HTML5
 * CSS
-* [Sass](https://sass-lang.com/) - JavaScript testing
-* [JavaScript](https://www.javascript.com/) - Compiler for next generation JavaScript
+* [Sass](https://sass-lang.com/)
+* [JavaScript](https://www.javascript.com/)
 
 ## Author
 * **Mantas Astrauskas** - *Whole project* - [MAstrauskas](https://github.com/MAstrauskas)
