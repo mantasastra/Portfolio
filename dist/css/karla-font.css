@@ -1,0 +1,17 @@
+/* karla-regular - latin */
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/karla-v7-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Karla"), local("Karla-Regular"),
+    url("../fonts/karla-v7-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/karla-v7-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/karla-v7-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/karla-v7-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/karla-v7-latin-regular.svg#Karla")
+      format("svg"); /* Legacy iOS */
+}

@@ -11,6 +11,18 @@
       text-align: center;
     }
   }
+  .btn-line {
+    // Blinking Effect On Menu Button
+    &:nth-child(1) {
+      animation: blinker 1s 3s linear infinite;
+    }
+    &:nth-child(2) {
+      animation: blinker 1s 3s linear infinite;
+    }
+    &:nth-child(3) {
+      animation: blinker 1s 3s linear infinite;
+    }
+  }
 }
 
 // Desktops & Laptops
@@ -97,19 +109,6 @@
 
   .projects {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .btn-line {
-    // Blinking Effect On Menu Button
-    &:nth-child(1) {
-      animation: blinker 1s 3s linear infinite;
-    }
-    &:nth-child(2) {
-      animation: blinker 1s 3s linear infinite;
-    }
-    &:nth-child(3) {
-      animation: blinker 1s 3s linear infinite;
-    }
   }
 
   .menu-btn.close {
