@@ -2,7 +2,7 @@
 My responsive portfolio.
 
 ## Website:
-[www.mantas.me](https://www.mantas.me/)
+[www.mastra.me](https://www.mastra.me/)
 
 ## Built With
 
