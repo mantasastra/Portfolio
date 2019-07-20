@@ -1,8 +1,8 @@
 # Portfolio
-My first responsive portfolio.
+My responsive portfolio.
 
 ## Website:
-[www.mantas.club](https://www.mantas.club/)
+[www.mantas.me](https://www.mantas.me/)
 
 ## Built With
 
